@@ -1,0 +1,13 @@
+[archive-uol-noarch]
+name=archive-uol-noarch
+baseurl=http://rpm.repo.intranet/rpm-archive/uol/noarch/
+gpgcheck=0
+enabled=1
+gpgkey=
+
+[archive-uol-$basearch]
+name=archive-uol-$basearch
+baseurl=http://rpm.repo.intranet/rpm-archive/uol/$basearch/
+gpgcheck=0
+enabled=1
+gpgkey=
